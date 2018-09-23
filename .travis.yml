@@ -1,0 +1,5 @@
+language: java
+
+before_install:
+- npm install -g @angular/cli
+- npm install ./src/main/webapp

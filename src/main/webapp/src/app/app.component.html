@@ -1,0 +1,34 @@
+<app-header></app-header>
+
+<div id="container">
+  <div id="jsoninput">
+  	<ace-editor [(text)]="code" mode="json" style="height:600px;"></ace-editor>
+  </div>
+  <div id="toolbox">
+      <div id="buttons">
+        <div>
+         <nav>
+		      <a>Beautify</a>
+		 </nav>
+        </div>
+      </div>
+     <div style="text-align:center;padding-top:10px;margin-left:-10px">
+    <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Ad-1 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8622052882913519"
+         data-ad-slot="3841163788"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+    </div>
+
+  <div id="jsonoutput">
+  		<json-viewer [json]="data"></json-viewer>
+  </div>  
+</div>
+
+<app-footer></app-footer>

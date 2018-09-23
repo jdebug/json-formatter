@@ -1,0 +1,76 @@
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+p {
+  font-family: Lato;
+}
+
+
+  #container {
+    width: 100%;
+    height: 100%;      
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden
+  }
+
+  #jsoninput {
+    width: 475px;
+    height: 500px;
+    float: left;
+  }
+
+  #jsonoutput {
+    width: 475px;
+    height: 500px;
+    float: left;
+  }
+
+  #toolbox {
+    text-align: center;
+    float: left;
+    width: 150px;
+    height: 100%;
+    padding: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+  button {
+    background-color: #637676 !important;
+    border-color: #637676 !important;
+    color: rgba(255, 255, 255, 1) !important;
+    fill: rgba(255, 255, 255, 1) !important;
+  }
+
+  div.convert-left, div.convert-right {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+  }
+
+  #toolbox #drag {
+    font-size: 32px;
+    color: #d3d3d3;
+    border-radius: 3px;
+    min-width: 24px;
+    cursor: col-resize;
+  }
