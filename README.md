@@ -18,3 +18,6 @@ Run the following command to run the application
 - [Nodejs](https://nodejs.org)
 - [Angular CLI](https://cli.angular.io)
 - [Gradle](https://gradle.org)
+
+## JSON Formatter Live ##
+http://jsonformatter.jdebugger.com/
