@@ -1,7 +1,5 @@
 # JSONFormatter Angular App with Spring Boot
 
-# JDebug #
-
 ## Description ##
 
 This is a simple application to format JSON data and it uses spring boot with angular frontend application to format JSON data. Gradle scripts are used to build & run the application.
